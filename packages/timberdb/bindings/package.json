@@ -1,0 +1,21 @@
+{
+	"name": "cztrie",
+	"version": "1.0.2",
+	"description": "Cztrie Server-Client",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"keywords": [
+		"cztrie"
+	],
+	"author": "chase",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypto": "*",
+		"cztrie-db": "*",
+		"grpc": "*",
+		"ztrie": "*"
+	}
+}
